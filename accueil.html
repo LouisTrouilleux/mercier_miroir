@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <base href="" target="_blank">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" defer="true" src="scripts/scripts.js"></script>
+    </head>
+
+    <header id="header-zone" class="">
+        <div class="l-wrapper">
+            <h1>Production, vente et dégustation de vin | Domaine Mercier, Pays de la Loire</h1>
+            <div id="header-logo">
+                <a class="header-link" href=""><img class="header-logo-img" src="images\header_logo.png" alt="logo du domaine"></a>
+            </div>
+        </div>
+        <div id="menu-zone">
+            <nav>
+                <button tabindex="1" type="button" class="menu-burg js-toggleMenuBurg">
+                    <div class="menu-burg__lines">
+                        <span class="menu-burg__line"></span>
+                        <span class="menu-burg__line"></span>
+                        <span class="menu-burg__line"></span>
+                    </div>
+                    <div class="menu-burg__label">Menu</div>
+                </button>
+                
+                <div class="l-wrapper">
+                    <div id="menu-top" class="">
+                        <ul class="menu-list menu-list--niv1">
+                            <li class="menu-item menu-item--niv1">
+                                <a class="menu-link" href="">Accueil</a>
+                            </li>
+                            <li class="menu-item menu-item--niv1 is-active">
+                                <a class="menu-link" href="">Terroir & Philosophie</a>
+                            </li>
+                            <li class="menu-item menu-item--niv1 menu-item--hasChild menu-item--hasChildClickable is-active">
+                                <a class="menu-link" href="">Nos Vins</a>
+                                <button type="button" class="menu-link--toggleSubMenu js-toggleSubMenu">
+                                    <div class="toggleSubMenu-arrow"></div>
+                                </button>
+                                <ul class="menu-list menu-list--niv2 ">
+                                    <li class="menu-item menu-item--niv2">
+                                        <a class="menu-link" href="">Nos Vins Blancs</a>
+                                    </li>
+                                    <li class="menu-item menu-item--niv2">
+                                        <a class="menu-link" href="">Nos Vins Rosés</a>
+                                    </li>
+                                    <li class="menu-item menu-item--niv2">
+                                        <a class="menu-link" href="">Nos Vins Rouges</a>
+                                    </li>
+                                    <li class="menu-item menu-item--niv2">
+                                        <a class="menu-link" href="">Nos Effervescents</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item--niv1 menu-item--hasChild menu-item--hasChildClickable">
+                                <a class="menu-link" href="">Activités Viti-Oenotouristiques</a> 
+                                <button type="button" class="menu-link--toggleSubMenu js-toggleSubMenu">
+                                    <div class="toggleSubMenu-arrow"></div>
+                                </button>
+                                <ul class="menu-list menu-list--niv2">
+                                    <li class="menu-item menu-item--niv2">
+                                        <a class="menu-link" href="">Vente directe</a>
+                                    </li>
+                                    <li class="menu-item menu-item--niv2">
+                                        <a class="menu-link" href="">Dégustation découverte</a>
+                                    </li>
+                                    <li class="menu-item menu-item--niv2">
+                                        <a class="menu-link" href="">Dormir au Domaine</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item--niv1">
+                                <a class="menu-link" href="">Espace Revendeur</a>
+                            </li>
+                            <li class="menu-item menu-item--niv1">
+                                <a class="menu-link" href="">Boutique en ligne</a>
+                            </li>
+                            <li class="menu-item menu-item--niv1">
+                                <a class="menu-link" href="">Le Domaine en image</a>
+                            </li>
+                            <li class="menu-item menu-item--niv1">
+                                <a class="menu-link" href="">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-social">
+                        <ul class="social-icons">
+                            <li class="social-icons__item">
+                                <a class="social-icons__link social-icons__link--bg-fb hover-bg--fb" href="https://www.facebook.com/lacaveducoinguipavas/" target="_blank">
+                                    <svg id= "fb-icon--header"
+                                        viewbox = "0 0 34 60"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M32.109.402v8.839h-5.257q-2.879 0-3.884 1.205t-1.004 3.616v6.328h9.81l-1.306 9.911h-8.504v25.413H11.718V30.301H3.18V20.39h8.538v-7.299q0-6.228 3.482-9.66t9.275-3.432q4.922 0 7.634.402z" fill="white" />
+                                    </svg>
+                                </a> 
+                            </li>
+                            <li class="social-icons__item">
+                                <a class="social-icons__link social-icons__link--bg-ig hover-bg--ig" href="https://www.instagram.com/lacaveducoinguipavas/" target="_blank">
+                                    <svg id ="ig-icon--header"
+                                        viewbox = "0 0 56.7 56.7"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M28.2 16.7c-7 0-12.8 5.7-12.8 12.8s5.7 12.8 12.8 12.8S41 36.5 41 29.5s-5.8-12.8-12.8-12.8zm0 21c-4.5 0-8.2-3.7-8.2-8.2s3.7-8.2 8.2-8.2 8.2 3.7 8.2 8.2-3.7 8.2-8.2 8.2z" fill="white" />
+                                        <circle cx="41.5" cy="16.4" r="2.9" fill="white"></circle>
+                                        <path d="M49 8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7 0-14.5 5.8-14.5 14.5v20.5c0 4.3 1.4 8 4.2 10.7 2.7 2.6 6.3 3.9 10.4 3.9h20.4c4.3 0 7.9-1.4 10.5-3.9 2.7-2.6 4.1-6.3 4.1-10.6V19.3c0-4.2-1.4-7.8-4-10.4zm-.6 31c0 3.1-.9 5.6-2.7 7.3-1.8 1.7-4.3 2.6-7.3 2.6H18c-3 0-5.5-.9-7.3-2.6C8.9 45.4 8 42.9 8 39.8V19.3c0-3 .9-5.5 2.7-7.3 1.7-1.7 4.3-2.6 7.3-2.6h20.6c3 0 5.5.9 7.3 2.7 1.7 1.8 2.7 4.3 2.7 7.2v20.6z" fill="white"/>
+                                    </svg>
+                                    </a>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+            </nav>
+        </div>
+        
+    
+    </header>
+    
+    <div class="diaporama-wrapper full-wrapper">
+        <div class="diaporama-container">
+            <div class="diaporama-list">
+                <div class="diaporama-item">
+                    <div class="diaporama-item__content">
+                        <img  srcset="images/accueil/la-rose07/la-rose07-1800w.jpg 1800w, images/accueil/la-rose07/la-rose07-1200w.jpg 1200w, images/accueil/la-rose07/la-rose07-1024w.jpg 1024w, images/accueil/la-rose07/la-rose07-800w.jpg 800w, images/accueil/la-rose07/la-rose07-500w.jpg 500w" src="images/accueil/la-rose07/la-rose07-1800w.jpg" sizes="" alt="diapo image">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <body>
+        <div class="page-zone full-wrapper">
+            <main class="main-container">
+                <section class="main-article l-wrapper">
+                    <div class="main__ttl">
+                        <h1>Vignoble Mercier : Un terroir unique, La Loire Côté Sud</h1>
+                    </div>
+                    
+                    <div class="main__text">
+                        <p><strong class="hook">Nous produisons des Vins de Loire - Vendée en AOC Fiefs Vendéens, IGP, 
+                            VDF et des Méthodes Traditionnelles uniques en Vendée. Nos vignes sont plantées sur 
+                            l’un des plus beaux terroirs du Val de Loire. Il s’agit d’une ancienne île argilo-calcaire riche en silex, 
+                            aux portes du Marais Poitevin.</strong>
+                        </p>
+                        <p>C’est d’ailleurs le terroir le plus au Sud de la Loire. Nous profitons d’un 
+                            <strong class="highlight">climat océanique chaud et tempéré</strong> 
+                            offrant le meilleur potentiel de maturation de la région. Un <strong class="highlights">vent d’ouest marin</strong> 
+                            traverse le marais pour venir caresser nos vignes en permanence : en plus de favoriser l’état sanitaire, nous le soupçonnons 
+                            de procurer des notes salines à certaines de nos Grandes Cuvées.
+
+                            Le Domaine fait partie du Groupe Mercier, qui est <strong class="highlights">mondialement reconnu</strong> 
+                            pour la production de plants de vigne à destination des 
+                            <strong class="highlight">vignerons français et étrangers. Le végétal occupe ainsi une place essentielle.</strong> 
+                            Loin des clichés, nous avons construit une approche culturale faite de bon sens et de respect.
+                        </p>
+                        <p>
+                            <strong class="hook">Notre motivation : élaborer des vins purs qui reflètent et respectent leurs terroirs d’origines, avec un rapport qualité/prix évident.</strong>
+                        </p>
+                    </div>
+                    <div class="main__img">
+                        <img src="images\accueil\logo_valdeloire.png" alt="logo caves val de loire">
+                    </div>
+                </section>
+            </main>
+            <section class="activities-wrapper full-wrapper">
+                <div class="activities-container l-wrapper">
+                    <div class="activities__ttl">
+                        <h1>Nos activités <br>
+                            Viti-Œnotouristiques</h1>
+                    </div>
+                    <div class="activities__sep">
+                        <span class="sep__item"></span>
+                        <span class="sep__item"></span>
+                        <span class="sep__item"></span>
+                    </div>
+                    <div class="activities__list">
+                        <div class="activities__item">
+                             <a href="">
+                                <img class="item__img" src="images\accueil\encarts\en-ligne.jpg" alt="">
+                                <div class="img-overlay"></div>
+                                <div class="item__content">
+                                    <h2 class="item__ttl">acheter nos vins</h2>
+                                    <p class="item__subttl">en ligne</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="activities__item">
+                             <a class="" href="">
+                                <img class="item__img" src="images\accueil\encarts\mercier19.jpg" alt="">
+                                <div class="img-overlay"></div>
+                                <div class="item__content">
+                                    <h2 class="item__ttl">activités</h2>
+                                    <p class="item__subttl">viti-oenotouristiques</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="activities__item">
+                             <a href="">
+                                <img class="item__img" src="images\accueil\encarts\mercier56.jpg" alt="">
+                                <div class="img-overlay"></div>
+                                <div class="item__content">
+                                    <h2 class="item__ttl">dégustation</h2>
+                                    <p class="item__subttl">découverte</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="activities__item">
+                             <a href="">
+                                <img class="item__img" src="images\accueil\encarts\photo-007.jpg" alt="">
+                                <div class="img-overlay"></div>
+                                <div class="item__content">
+                                    <h2 class="item__ttl">dormir au château</h2>
+                                    <p class="item__subttl">de la sebandiere</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="activities__item">
+                            <a href="">
+                                <img class="item__img" src="images\accueil\encarts\mercier57.jpg" alt="">
+                                <div class="img-overlay"></div>
+                                <div class="item__content">
+                                    <h2 class="item__ttl">vente</h2>
+                                    <p class="item__subttl">directe</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+        </div>
+    
+    </body>
+    
+</html>
